@@ -91,6 +91,9 @@ input{
 
 }
 
+.extras img{
+    transition: ease-in-out 1s;
+}
 
 
 .extras img:hover{
