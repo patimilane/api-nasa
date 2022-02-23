@@ -86,7 +86,7 @@ input{
     height: 800px;
     border-radius: 50%;
    /* background-color: #11143d; */
-    background-image: url('../img/moon.png');
+    background-image: url('moon.png');
     filter: drop-shadow(2px 4px 4px rgb(66, 66, 73));
 
 }
