@@ -1,0 +1,105 @@
+@media(min-width: 1400px){
+    .descricao p{
+        font-size: 1.5rem;
+        max-width: 750px;
+    }
+    
+    .descricao h1{
+        font-size: 1.8em;
+    }
+ 
+    .tudoPesquisar{
+        display: flex;
+        margin-top: 3%;
+    }
+    
+    .divinput2{
+        width: 48%;
+        margin-left: 1%;
+    }
+    
+    label{
+        font-weight: 550;
+        font-size: 2em;
+    }
+}
+
+@media(min-width: 1600px){
+
+    .descricao{
+        margin-left: 5%;
+    }
+    .descricao p{
+        font-size: 2rem;
+        max-width: 900px;
+    }
+    
+    .descricao h1{
+        font-size: 3rem;
+    }
+
+    .iconredes{
+        width: 50%;
+        font-size: 2rem;
+    }
+
+    .iconredesPesquisar{
+        width: 50%;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 980px){
+
+    .extras{
+        display: none;
+    }
+    .descricao{
+        max-width: 80%;
+    }
+    .divcheckbox{
+        margin-left: 50%;
+    }
+}
+
+@media(max-width: 750px){
+
+    footer, header{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .tudoPesquisar{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .pesquisar img{
+        width: 400px;
+        margin-bottom: 2%;
+    }
+
+    .divinput2{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+    }
+}
+
+@media(max-width: 660px){
+
+    header h3{
+        display: none;  
+    }
+
+    .pesquisar img{
+        width: 300px;
+        margin-bottom: 2%;
+    }
+}
+
