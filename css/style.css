@@ -85,16 +85,13 @@ input{
     width: 800px;
     height: 800px;
     border-radius: 50%;
-    /* background-color: #11143d; */
-    background-image: url('img/moon.png');
+   /* background-color: #11143d; */
+    background-image: url('../img/moon.png');
     filter: drop-shadow(2px 4px 4px rgb(66, 66, 73));
 
 }
 
-.extras img{
-    transition: ease-in-out 1s;
 
-}
 
 .extras img:hover{
     filter: drop-shadow(2px 4px 8px rgb(66, 66, 73));
